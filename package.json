@@ -1,7 +1,7 @@
 {
   "name": "express-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a boilerplate project used for starting new projects!",
   "main": "index.js",
   "scripts": {
     "test": "mocha --require test/setup.js",
@@ -16,14 +16,28 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^6.2.0",
-    "express": "^4.16.4",
-    "helmet": "^3.15.0",
-    "morgan": "^1.9.1"
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "morgan": "^1.10.0",
+    "uuid": "^8.0.0",
+    "valid-url": "^1.0.9",
+    "winston": "^3.2.1"
   },
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^5.2.0",
     "nodemon": "^1.18.9",
     "supertest": "^3.4.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thinkful-Ed/express-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Thinkful-Ed/express-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Thinkful-Ed/express-boilerplate#readme"
 }
